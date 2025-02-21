@@ -30,12 +30,12 @@ nav{
             top: 0;
             left: 0;
             width: 100%;
-            height: 100px;
+            height: 80px;
             background:linear-gradient(rgba(0,0,0,0.6),#1b989e);
             color: white;
             display: flex;
             align-items: center;
-            padding: 10px 20px;
+            padding: 15px 25px;
             z-index: 1000; /* Ensures navbar is above other elements */
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
@@ -45,35 +45,35 @@ nav{
     flex-wrap: wrap; */
 }
 .logo{
-    margin-right: 50px;
-    width: 140px;
+    margin-right: 60px;
+    width: 150px;
     margin-left: 50px;
-    height: 40px;
+    height: 60px;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 10px 20px;
+    margin: 15px 25px;
 }
 nav ul{
-    margin-top: 3px;
-    margin-left: 100px;
+    margin-top: 5px;
+    margin-left: 120px;
 }
 nav ul li a{
     color: #fff;
      text-decoration: none;
-     font-size: 13px;
+     font-size: 16px;
      position: relative;
 }
 
 nav ul li a::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: 5px;
     background: #e0e2e2;
     position: absolute;
     left: 0;
-    bottom: -6px;
+    bottom: -8px;
     transition: 0.5s;
 
 }
@@ -84,38 +84,38 @@ nav ul li a:hover::after{
 
 .header-text{
     margin-top: 10%;
-    font: size 30px;
+    font: size 50px;
 }
 .header-text h1{
-    font-size: 60px;
-    margin-top: 20px;
+    font-size: 80px;
+    margin-top: 30px;
 }
 #hello{
-    font-size: 20px;
-    margin-top: 20px;
+    font-size: 30px;
+    margin-top: 30px;
 }
 .header-text h1 span{
     color: #1b989e;
 }
 .degree{
-    margin-top: 70px;
-    font-size: 20px;
+    margin-top: 90px;
+    font-size: 30px;
     display: flex;
     flex-wrap: wrap;
     align-items: left;
     flex-direction: column;
 }
 .degree .btn{
-    margin-left: 60px;
-    font-size: 15px;
-    padding: 15px;
-    margin-bottom: 15px;
+    margin-left: 80px;
+    font-size: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
 /* effect for good at */
 
 .goodat {
-    font-size:30px ;
+    font-size:40px ;
     position: absolute;
     opacity: 0;
     animation: fadeInOut 8s infinite; /* Duration increased for smoother transitions */
@@ -157,20 +157,20 @@ nav ul li a:hover::after{
 }
 .about-col-1{
     flex: 1;
-    min-width: 250px; /* Ensures responsiveness */
-    max-width: 300px; /* Limits column width */
+    min-width: 300px; /* Ensures responsiveness */
+    max-width: 350px; /* Limits column width */
     background: black;
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 15px;
+    padding: 30px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align:left;
 }
 .about-col-1 img{
-    width: 150px;
-    height: 150px;
-    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
     object-fit: cover;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
 }
 .about-col-2{
@@ -178,19 +178,19 @@ nav ul li a:hover::after{
 
 }
 .subtitle{
-    font: size 60px;
+    font: size 80px;
     font-weight: 600;
     color: #fff;
 }
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 30px 0 60px;
 
 }
 .tab-links{
-    margin-right: 50px ;
-    font-size: 18px;
+    margin-right: 70px ;
+    font-size: 20px;
     font-weight: 500;
     cursor: pointer;
     position: relative;
@@ -198,11 +198,11 @@ nav ul li a:hover::after{
 .tab-links::after{
     content: '';
     width: 0;
-    height: 3px;
+    height: 5px;
     background: #1b989e;
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -10px;
     transition: 0.5s;
 }
 
@@ -211,13 +211,13 @@ nav ul li a:hover::after{
 }
 .tab-contents ul li{
     list-style: none;
-    margin: 5px 0;
+    margin: 8px 0;
 
 }
 
 .tab-contents ul li span{
     color: #1b989e;
-    font-size: 15px;
+    font-size: 20px;
 }
 .tab-contents {
     display:none;
@@ -228,8 +228,8 @@ nav ul li a:hover::after{
 }
 
 .row p{
-    margin-top: 10px;
-    font-size: 15px;
+    margin-top: 15px;
+    font-size: 20px;
 }
 
 
@@ -240,69 +240,69 @@ nav ul li a:hover::after{
 
 /* -------Services */
 #services{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .services-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 60px;
+    margin-top: 70px;
 }
 
 .services-list div{
     background: #262626;
-    padding: 40px;
-    font-size: 13px;
+    padding: 60px;
+    font-size: 15px;
     font-weight: 300;
-    border-radius: 25px;
+    border-radius: 35px;
     transition: background 0.5s, transform 0.5s;
 
 }
 .services-list div i{
-    font-size: 50px;
-    margin-bottom: 30px;
+    font-size: 70px;
+    margin-bottom: 50px;
 }
 .services-list div h2{
-    font-size: 30px;
+    font-size: 50px;
     font-weight: 500;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .services-list div a{
     text-decoration: none;
     color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
+    font-size: 15px;
+    margin-top: 30px;
     display: inline-block;
 }
 .services-list div{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .services-list div:hover{
     background: #1b989e;
-    transform: translateY(-10px);
+    transform: translateY(-15px);
 }
 
 
 /* /* ---------portfolio----- */
 #portfolio{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .work-list{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+    grid-gap: 60px;
+    margin-top: 70px;
 }
 
 .work{
-    border-radius: 10px;
+    border-radius: 15px;
     position: relative;
     overflow: hidden;
 }
 .work img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
     display: block;
     transition: transform 0.5s;
 }
@@ -311,7 +311,7 @@ nav ul li a:hover::after{
     width: 100%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6),#1b989e);
-    border-radius: 10px;
+    border-radius: 15px;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -320,25 +320,25 @@ nav ul li a:hover::after{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 40px;
+    padding: 0 60px;
     text-align: center;
-    font-size: 14px;
+    font-size: 17px;
     transition: height 0.5s;
 }
 
 .layer h3{
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .layer a{
-    margin-top: 20px;
+    margin-top: 30px;
     color: #1b989e;
     text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
+    font-size: 20px;
+    line-height: 80px;
     background: #fff;
-    width: 60px;
-    height: -60px;
+    width: 80px;
+    height: -80px;
     border-radius: 50%;
     text-align: center;
 }
@@ -353,11 +353,11 @@ nav ul li a:hover::after{
 
 .btn{
     display: block;
-    margin: 50px auto;
+    margin: 70px auto;
     width: fit-content;
-    border: 1px solid #1b989e;
-    padding: 14px 50px;
-    border-radius: 20px;
+    border: 2px solid #1b989e;
+    padding: 16px 70px;
+    border-radius: 30px;
     text-decoration: none;
     color: #fff;
     transition: background 0.4s;
@@ -369,53 +369,53 @@ nav ul li a:hover::after{
 
 /* ----------Certifications----------- */
 #certifications {
-    padding: 150px 0; /* Reduced padding */
+    padding: 200px 0; /* Reduced padding */
 }
 
 .cert-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Smaller min width */
-    grid-gap: 20px; /* Reduced gap */
+    grid-gap: 30px; /* Reduced gap */
     margin-top: 30px; /* Reduced margin */
 }
 
 .cert-list div {
     background: #262626;
     padding: 20px; /* Reduced padding */
-    font-size: 12px; /* Smaller font size */
+    font-size: 15px; /* Smaller font size */
     font-weight: 300;
     border-radius: 15px; /* Smaller radius */
     transition: background 0.3s, transform 0.3s;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-    min-height: 100px; /* Optional: Set a minimum height */
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+    min-height: 130px; /* Optional: Set a minimum height */
 }
 
 .cert-list div h2 {
-    font-size: 16px; /* Smaller title font size */
+    font-size: 18px; /* Smaller title font size */
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .cert-list div a {
     text-decoration: none;
     color: #fff;
-    font-size: 11px; /* Smaller link font size */
-    margin-top: 10px; /* Reduced margin */
+    font-size: 15px; /* Smaller link font size */
+    margin-top: 16px; /* Reduced margin */
     display: inline-block;
 }
 
 .cert-list div:hover {
     background: linear-gradient(rgba(0,0,0,0.6),#1b989e);
-    transform: translateY(-5px); /* Reduced hover effect */
+    transform: translateY(-7px); /* Reduced hover effect */
 }
 .cert-list div i{
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 /* ---------Contact--------- */
 
 #contact{
-    padding: 50px 0;
+    padding: 70px 0;
 }
 .contact-left{
     
@@ -426,21 +426,21 @@ nav ul li a:hover::after{
     
 }
 .contact-left p{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .contact-left p i{
     color: #1b989e;
-    margin-right: 15px;
-    font-size: 25px;
+    margin-right: 20px;
+    font-size: 35px;
 }
 .social-icons{
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .social-icons a{
     text-decoration: none;
-    font-size: 30px;
-    margin-right: 15px;
+    font-size: 50px;
+    margin-right: 20px;
     color: #ababab;
     display: inline-block;
     transition:transform 0.5s;
@@ -449,7 +449,7 @@ nav ul li a:hover::after{
 
 .social-icons a:hover{
     color: #1b989e;
-    transform: translateY(-5px);
+    transform: translateY(-7px);
 }
 .btn.btn-2{
     display: inline-block;
@@ -466,27 +466,27 @@ form input, form textarea{
     border: 0;
     outline: none;
     background: #262626;
-    padding: 15px;
-    margin: 15px 0;
+    padding: 20px;
+    margin: 20px 0;
     color: #fff;
-    font-size: 18px;
-    border-radius: 6px;
+    font-size: 23px;
+    border-radius: 8px;
 
 }
 form button{
-    padding: 14px 60px;
-    font-size: 18px;
-    margin-top: 20px;
+    padding: 19px 80px;
+    font-size: 20px;
+    margin-top: 22px;
     cursor: pointer;
 
 }
 .copyright{
     width:100%;
     text-align: center;
-    padding: 25px 0;
+    padding: 35px 0;
     background: #262626;
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 27px;
 }
 
 
@@ -502,14 +502,14 @@ nav .fa-solid{
 
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 18px;
     }
     .header-text h1{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav .fa-solid{
         display:block;
-        font-size: 25px;
+        font-size: 30px;
         cursor: pointer;
     }
     nav ul{
@@ -526,18 +526,18 @@ nav .fa-solid{
     }
     nav ul li{
         display: block;
-        margin: 25px;
+        margin: 30px;
 
     }
     nav ul .fa-solid{
         position: absolute;
-        top: 25px;
-        left: 25px;
+        top: 30px;
+        left: 30px;
         cursor: pointer;
     }
 
     .sub-title{
-        font-size: 40px;
+        font-size: 50px;
 
     }
     .about-col-1,.about-col-2{
@@ -545,21 +545,21 @@ nav .fa-solid{
 
     }
     .about-col-1{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .about-col-2{
-        font-size: 14px;
+        font-size: 16px;
     }
     .tab-links{
-        font-size:16px;
-        margin-right: 20px;
+        font-size:18px;
+        margin-right: 22px;
     }
 
     .contact-left,.contact-right{
         flex-basis: 100%;
     }
     .copyright{
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
