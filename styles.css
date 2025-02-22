@@ -147,7 +147,7 @@ nav ul li a:hover::after{
 }
 /* ---------about--------- */
 #about{
-    padding: 70px 0;
+    padding: 80px 0;
     color: white;
 }
 .row{
@@ -178,7 +178,7 @@ nav ul li a:hover::after{
 
 }
 .subtitle{
-    font: size 60px;
+    font: size 70px;
     font-weight: 600;
     color: #fff;
 }
@@ -239,7 +239,7 @@ nav ul li a:hover::after{
 }
 /* -------Services */
 #services{
-    padding: 50px 0;
+    padding: 80px 0;
 }
 .services-list{
     display: grid;
